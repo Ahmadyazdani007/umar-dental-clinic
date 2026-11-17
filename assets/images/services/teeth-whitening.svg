@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bg_teeth-whitening" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff"/>
+        <stop offset="100%" stop-color="#f0f7ff"/>
+      </linearGradient>
+    </defs>
+    <rect width="300" height="260" rx="20" fill="url(#bg_teeth-whitening)"/>
+    <circle cx="150" cy="130" r="95" fill="#f0f9ff"/>
+    
+      <!-- Pure White Tooth with Glowing Rays -->
+      <circle cx="150" cy="130" r="85" fill="#ecfeff"/>
+      <path d="M 100 140 C 70 80, 80 40, 110 30 C 130 25, 145 40, 150 50 C 155 40, 170 25, 190 30 C 220 40, 230 80, 200 140 C 185 170, 180 230, 165 230 C 155 230, 155 180, 150 180 C 145 180, 145 230, 135 230 C 120 230, 115 170, 100 140 Z" fill="#ffffff" stroke="#06b6d4" stroke-width="6"/>
+      <!-- Giant Sparkle -->
+      <path d="M 150 75 Q 150 100, 175 100 Q 150 100, 150 125 Q 150 100, 125 100 Q 150 100, 150 75" fill="#06b6d4"/>
+      <circle cx="195" cy="65" r="5" fill="#38bdf8"/>
+      <circle cx="105" cy="85" r="4" fill="#38bdf8"/>
+    
+  </svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f9ff"/>
+      <stop offset="60%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#bae6fd"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0c4a6e" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Card Shape -->
+  <rect x="20" y="20" width="660" height="480" rx="32" fill="url(#heroBg)"/>
+  <circle cx="560" cy="110" r="90" fill="#38bdf8" opacity="0.15"/>
+  <circle cx="100" cy="420" r="70" fill="#0284c7" opacity="0.1"/>
+
+  <!-- Dental Clinic Room Elements -->
+  <!-- Modern Window Background with Soft Light -->
+  <rect x="80" y="60" width="220" height="180" rx="16" fill="#ffffff" opacity="0.6"/>
+  <line x1="190" y1="60" x2="190" y2="240" stroke="#bae6fd" stroke-width="2"/>
+  <line x1="80" y1="150" x2="300" y2="150" stroke="#bae6fd" stroke-width="2"/>
+
+  <!-- Modern Dental Ergonomic Chair -->
+  <g transform="translate(180, 160)">
+    <!-- Base -->
+    <ellipse cx="140" cy="270" rx="90" ry="18" fill="#cbd5e1"/>
+    <rect x="125" y="220" width="30" height="55" rx="6" fill="#94a3b8"/>
+    <!-- Chair Seat & Backrest -->
+    <path d="M 50 200 C 70 170, 120 180, 180 190 C 230 200, 260 170, 270 130 C 275 110, 260 90, 240 90 C 210 90, 180 120, 130 130 C 90 140, 50 170, 50 200 Z" fill="#0284c7" filter="url(#softShadow)"/>
+    <!-- Headrest -->
+    <rect x="250" y="70" width="45" height="28" rx="14" fill="#0369a1"/>
+    <!-- Instrument Arm -->
+    <path d="M 70 240 Q 40 180, 50 100 Q 60 70, 110 65" fill="none" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="115" cy="65" rx="22" ry="12" fill="#38bdf8"/>
+    <circle cx="115" cy="65" r="7" fill="#ffffff"/>
+  </g>
+
+  <!-- Friendly Patient Sitting Comfortably -->
+  <g transform="translate(260, 210)">
+    <!-- Body -->
+    <path d="M 60 110 C 60 80, 110 75, 130 90 C 145 100, 150 120, 160 140 L 40 140 Z" fill="#38bdf8"/>
+    <!-- Neck & Head -->
+    <rect x="85" y="50" width="18" height="24" rx="4" fill="#fed7aa"/>
+    <circle cx="94" cy="40" r="28" fill="#fed7aa"/>
+    <!-- Hair -->
+    <path d="M 68 38 C 68 20, 80 15, 100 15 C 118 15, 122 26, 122 38 C 114 30, 90 28, 76 34 Z" fill="#475569"/>
+    <!-- Gentle Smile & Eyes -->
+    <circle cx="102" cy="38" r="2.5" fill="#1e293b"/>
+    <path d="M 98 48 Q 106 54, 114 48" fill="none" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Friendly Professional Dentist -->
+  <g transform="translate(390, 130)" filter="url(#softShadow)">
+    <!-- White Medical Coat Body -->
+    <path d="M 30 180 C 40 140, 70 120, 110 120 C 150 120, 180 140, 190 180 L 205 310 L 15 310 Z" fill="#ffffff"/>
+    <path d="M 85 120 L 110 180 L 135 120 Z" fill="#0284c7"/>
+    <polygon points="105,170 115,170 117,230 103,230" fill="#0369a1"/>
+    <!-- Stethoscope / Medical ID -->
+    <rect x="70" y="210" width="30" height="40" rx="4" fill="#e0f2fe"/>
+    <line x1="75" y1="220" x2="95" y2="220" stroke="#0284c7" stroke-width="2"/>
+    <line x1="75" y1="226" x2="90" y2="226" stroke="#0284c7" stroke-width="2"/>
+    <line x1="75" y1="232" x2="85" y2="232" stroke="#0284c7" stroke-width="2"/>
+    <!-- Dentist Head -->
+    <rect x="100" y="80" width="22" height="28" fill="#ffedd5"/>
+    <circle cx="111" cy="62" r="34" fill="#ffedd5"/>
+    <!-- Hair -->
+    <path d="M 78 55 C 80 30, 105 25, 130 28 C 145 30, 148 45, 146 60 C 138 42, 110 40, 85 50 Z" fill="#1e293b"/>
+    <!-- Dentist Warm Eyes & Smile -->
+    <circle cx="98" cy="60" r="3" fill="#1e293b"/>
+    <circle cx="124" cy="60" r="3" fill="#1e293b"/>
+    <path d="M 103 76 Q 111 84, 119 76" fill="none" stroke="#be123c" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Raised Hand with Dental Mirror -->
+    <path d="M 35 190 Q 5 210, 0 170 Q 20 150, 45 160" fill="#ffffff"/>
+    <path d="M 0 170 L -25 150" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-28" cy="148" r="9" fill="#38bdf8" stroke="#0284c7" stroke-width="2"/>
+  </g>
+
+  <!-- Floating Trust Badge Left -->
+  <g transform="translate(60, 310)" filter="url(#softShadow)">
+    <rect width="180" height="64" rx="16" fill="#ffffff"/>
+    <circle cx="34" cy="32" r="18" fill="#e0f2fe"/>
+    <path d="M 34 22 C 30 22, 26 25, 26 29 C 26 35, 34 42, 34 42 C 34 42, 42 35, 42 29 C 42 25, 38 22, 34 22 Z" fill="#0284c7"/>
+    <text x="62" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Pain-Free Care</text>
+    <text x="62" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="500" fill="#64748b">Gentle Procedures</text>
+  </g>
+
+  <!-- Floating Trust Badge Right -->
+  <g transform="translate(460, 390)" filter="url(#softShadow)">
+    <rect width="190" height="64" rx="16" fill="#ffffff"/>
+    <circle cx="34" cy="32" r="18" fill="#dcfce7"/>
+    <path d="M 28 32 L 32 36 L 40 28" fill="none" stroke="#16a34a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="62" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Verified Standards</text>
+    <text x="62" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="500" fill="#64748b">100% Sterilized Clinic</text>
+  </g>
+</svg>

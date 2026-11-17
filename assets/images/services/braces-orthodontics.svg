@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" width="100%" height="100%">
+    <defs>
+      <linearGradient id="bg_braces-orthodontics" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff"/>
+        <stop offset="100%" stop-color="#f0f7ff"/>
+      </linearGradient>
+    </defs>
+    <rect width="300" height="260" rx="20" fill="url(#bg_braces-orthodontics)"/>
+    <circle cx="150" cy="130" r="95" fill="#f0f9ff"/>
+    
+      <!-- Row of neatly aligned teeth with brackets & archwire -->
+      <path d="M 75 130 C 70 90, 85 70, 105 70 C 120 70, 125 90, 125 130 C 125 150, 75 150, 75 130 Z" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+      <path d="M 125 130 C 125 80, 135 65, 150 65 C 165 65, 175 80, 175 130 C 175 155, 125 155, 125 130 Z" fill="#ffffff" stroke="#0284c7" stroke-width="4"/>
+      <path d="M 175 130 C 175 90, 180 70, 195 70 C 215 70, 225 90, 225 130 C 225 150, 175 150, 175 130 Z" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+      <!-- Orthodontic Brackets -->
+      <rect x="92" y="95" width="16" height="16" rx="3" fill="#0284c7"/>
+      <rect x="142" y="93" width="16" height="16" rx="3" fill="#0284c7"/>
+      <rect x="192" y="95" width="16" height="16" rx="3" fill="#0284c7"/>
+      <!-- Elastic Ties -->
+      <circle cx="100" cy="103" r="3" fill="#38bdf8"/>
+      <circle cx="150" cy="101" r="3" fill="#38bdf8"/>
+      <circle cx="200" cy="103" r="3" fill="#38bdf8"/>
+      <!-- Archwire -->
+      <path d="M 60 105 Q 150 98, 240 105" fill="none" stroke="#0f172a" stroke-width="4"/>
+    
+  </svg>

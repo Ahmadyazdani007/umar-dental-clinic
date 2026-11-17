@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="intGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f0f9ff" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+  <!-- Room Walls & Floor -->
+  <rect width="600" height="280" fill="url(#intGrad)"/>
+  <rect y="280" width="600" height="120" fill="#cbd5e1"/>
+  <!-- Floor Perspective Line -->
+  <line x1="0" y1="280" x2="600" y2="280" stroke="#94a3b8" stroke-width="3"/>
+  <line x1="120" y1="280" x2="60" y2="400" stroke="#e2e8f0" stroke-width="2"/>
+  <line x1="300" y1="280" x2="280" y2="400" stroke="#e2e8f0" stroke-width="2"/>
+  <line x1="480" y1="280" x2="500" y2="400" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Back Wall Cabinetry & Counter -->
+  <rect x="40" y="160" width="200" height="120" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <line x1="40" y1="210" x2="240" y2="210" stroke="#e2e8f0" stroke-width="2"/>
+  <line x1="140" y1="160" x2="140" y2="280" stroke="#e2e8f0" stroke-width="2"/>
+  <!-- Cabinet Handles -->
+  <rect x="125" y="180" width="4" height="16" rx="2" fill="#94a3b8"/>
+  <rect x="151" y="180" width="4" height="16" rx="2" fill="#94a3b8"/>
+
+  <!-- Digital X-Ray / Monitor Screen on Wall -->
+  <rect x="360" y="60" width="180" height="110" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="4"/>
+  <rect x="370" y="70" width="160" height="90" rx="6" fill="#0369a1"/>
+  <!-- Dental X-Ray Teeth Trace on Monitor -->
+  <path d="M 390 120 Q 400 90, 410 120 Q 420 90, 430 120 Q 440 90, 450 120 Q 460 90, 470 120 Q 480 90, 490 120 Q 500 90, 510 120" fill="none" stroke="#e0f2fe" stroke-width="4"/>
+  <circle cx="450" cy="115" r="8" fill="#38bdf8" opacity="0.6"/>
+
+  <!-- Center Dental Operatory Chair -->
+  <g transform="translate(180, 100)">
+    <!-- Base -->
+    <ellipse cx="140" cy="200" rx="70" ry="14" fill="#64748b"/>
+    <rect x="130" y="160" width="20" height="42" rx="4" fill="#94a3b8"/>
+    <!-- Chair Contour -->
+    <path d="M 60 150 C 90 130, 140 140, 180 145 C 220 150, 240 120, 245 90 C 248 70, 235 55, 220 55 C 190 55, 170 85, 130 95 C 90 105, 60 130, 60 150 Z" fill="#0284c7"/>
+    <rect x="228" y="42" width="35" height="22" rx="11" fill="#0369a1"/>
+    <!-- Overhead Surgical LED Lamp -->
+    <path d="M 80 180 Q 40 100, 70 30 Q 90 0, 130 5" fill="none" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="120,5 150,-5 145,20 125,20" fill="#38bdf8"/>
+    <!-- Soft light beam from lamp -->
+    <polygon points="130,20 180,110 90,110" fill="#38bdf8" opacity="0.15"/>
+  </g>
+
+  <!-- Clean Plant on Cabinet -->
+  <ellipse cx="70" cy="155" rx="14" ry="6" fill="#cbd5e1"/>
+  <rect x="62" y="140" width="16" height="15" rx="3" fill="#ffffff" stroke="#94a3b8"/>
+  <path d="M 70 140 Q 60 120, 50 125 Q 65 120, 70 140" fill="#10b981"/>
+  <path d="M 70 140 Q 80 115, 90 122 Q 75 118, 70 140" fill="#10b981"/>
+</svg>

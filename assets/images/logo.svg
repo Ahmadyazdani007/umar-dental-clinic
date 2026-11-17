@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 90" width="100%" height="100%">
+  <!-- Umar Dental Clinic Official Brand Vector -->
+  <!-- Left Tooth (Incisor / Canine) -->
+  <g stroke="#1e293b" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Crown -->
+    <path d="M 22 28 C 22 20, 28 14, 38 15 C 48 16, 56 18, 62 26 C 63 32, 60 40, 58 46 L 24 43 C 22 38, 22 32, 22 28 Z" />
+    <path d="M 24 43 Q 42 47, 58 46" />
+    <!-- Root -->
+    <path d="M 24 43 C 26 58, 38 78, 42 84 C 44 87, 47 87, 49 84 C 54 74, 57 58, 58 46" />
+  </g>
+
+  <!-- Right Tooth (Molar) -->
+  <g stroke="#1e293b" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Molar Cusp Crown -->
+    <path d="M 78 30 C 78 20, 85 16, 92 18 C 96 19, 99 22, 102 18 C 108 15, 118 18, 120 28 C 122 34, 120 42, 118 45 L 78 44 C 77 40, 77 34, 78 30 Z" />
+    <path d="M 78 44 Q 98 48, 118 45" />
+    <path d="M 88 18 Q 98 25, 108 19" />
+    <!-- Molar Two Roots -->
+    <path d="M 78 44 C 79 55, 82 72, 85 84 C 86 87, 90 87, 91 83 C 94 72, 96 60, 99 54 C 102 60, 105 72, 107 83 C 108 87, 112 87, 113 84 C 116 72, 117 55, 118 45" />
+  </g>
+
+  <!-- Typography: UMAR DENTAL CLINIC -->
+  <g font-family="'Cinzel', 'Playfair Display', 'Times New Roman', serif" font-size="34" letter-spacing="1.5">
+    <text x="135" y="44" font-weight="600" fill="#1e293b">UMAR </text>
+    <text x="256" y="44" font-weight="400" fill="#94a3b8">DENTAL </text>
+    <text x="408" y="44" font-weight="600" fill="#1e293b">CLINIC</text>
+  </g>
+
+  <!-- Tagline: Your Smile is Important to us -->
+  <text x="137" y="68" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="14.5" font-weight="600" fill="#64748b" letter-spacing="0.3">Your Smile is Important to us</text>
+</svg>

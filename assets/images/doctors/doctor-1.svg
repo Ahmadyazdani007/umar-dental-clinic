@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" width="100%" height="100%">
+  <rect width="300" height="320" rx="24" fill="#f0f9ff"/>
+  <circle cx="150" cy="110" r="60" fill="#ffedd5"/>
+  <!-- Hair Male -->
+  <path d="M 95 95 C 100 50, 140 40, 185 48 C 205 52, 210 75, 205 95 C 190 68, 150 65, 110 80 Z" fill="#1e293b"/>
+  <!-- Eyes & Smile -->
+  <circle cx="130" cy="108" r="4" fill="#0f172a"/>
+  <circle cx="170" cy="108" r="4" fill="#0f172a"/>
+  <path d="M 136 132 Q 150 144, 164 132" fill="none" stroke="#be123c" stroke-width="3" stroke-linecap="round"/>
+  <!-- Neck -->
+  <rect x="135" y="160" width="30" height="25" fill="#ffedd5"/>
+  <!-- Coat -->
+  <path d="M 40 320 L 70 200 C 95 180, 130 180, 150 180 C 170 180, 205 180, 230 200 L 260 320 Z" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <polygon points="120,180 150,250 180,180 160,180 150,220 140,180" fill="#0284c7"/>
+  <rect x="195" y="225" width="35" height="45" rx="4" fill="#e0f2fe"/>
+  <line x1="202" y1="235" x2="222" y2="235" stroke="#0284c7" stroke-width="2"/>
+  <line x1="202" y1="242" x2="218" y2="242" stroke="#0284c7" stroke-width="2"/>
+</svg>
